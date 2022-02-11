@@ -1,0 +1,11 @@
+OBJETIVO
+
+1° - CRIAR UMA API nos padrões RESTful, que terá um CRUD;
+2° - Os endepoints serão com os verbos HTTP que correspodem a ação do mesmo.
+3° - As respostas serão baseadas em JSON, retornando também o status correto.
+4° - Aplicaremos validações simples, para simular o mundo real.
+
+
+----------------------------------------------------
+
+CRIANDO VARIAVEIS NO POSTMAN 
