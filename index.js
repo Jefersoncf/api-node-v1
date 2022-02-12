@@ -5,11 +5,14 @@ const dotenv = require('dotenv');
 dotenv.config();
 const app = express();
 
-const Person = require('./models/Person');
-
 //JSON / middleware
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+
+//router api
+const personRoutes = require('./routes/personRoutes');
+
+app.use('/person', personRoutes);
 
 //rota inicial/endepoint
 app.get('/', (req, res) => {
